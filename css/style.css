@@ -6671,11 +6671,21 @@ button.default__button {
   border-radius: var(--borderRadius);
   transition: var(--transition);
 }
-@media (min-width: 1366px) and (max-width: 1499px), (min-width: 992px) and (max-width: 1365px), (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media (min-width: 1366px) and (max-width: 1499px), 
+       (min-width: 992px) and (max-width: 1365px), 
+       (min-width: 768px) and (max-width: 991px), 
+       (max-width: 767px) {
   .team__member__single {
     padding: 20px;
   }
 }
+
+@media (max-width: 767px) {
+  .team__member__single {
+    margin-bottom: 120px;
+  }
+}
+
 .team__member__single:hover {
   border: 1px solid var(--blackColor);
 }
