@@ -20,15 +20,6 @@
     <link rel="stylesheet" href="css/style.css">
 
 
-    <script>
-        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-        if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-          document.documentElement.classList.add("is_dark");
-        } 
-        if (localStorage.getItem("theme-color") === "light") {
-          document.documentElement.classList.remove("is_dark");
-        } 
-    </script>
 
 </head>
 
@@ -134,7 +125,7 @@
                         <div class="headerarea__component__wrap">
                             <div class="headerarea__component">
                                 <div class="headerarea__logo">
-                                <a href="index.html"><img src="img/logo/Logo_1.png" alt="Bastun Logo"></a>
+                                <a href="/"><img src="img/logo/Logo_1.png" alt="Bastun Logo"></a>
                                 </div>
                             </div>
 
@@ -145,17 +136,17 @@
                                     <nav>
                                         <ul>
                                             <li class="headerarea__common__dropdown headerarea__mega__menu position-static">
-                                                <a class="headerarea__has__dropdown" href="index.html">HOME<i class="icofont-long-arrow-down"></i> </a>
+                                                <a class="headerarea__has__dropdown" href="/">HOME<i class="icofont-long-arrow-down"></i> </a>
                                                 <div class="headerarea__submenu headerarea__mega__menu__wrapper headerarea__mega__menu__grid__5">
                                             
                                                     <div class="row">
                                             
                                                         <div class="col-3 headerarea__mega__menu__single__wrap">
                                                             <div class="headerarea__mega__menu__thumb">
-                                                                <a target="_blank" href="index.html">
+                                                                <a target="_blank" href="/">
                                                                     <img src="img/mega/home-1.png" alt="Mega Menu">
                                                                 </a>
-                                                                <a target="_blank" href="index.html">
+                                                                <a target="_blank" href="/">
                                                                     <span class="headerarea__mega__menu__thumb__title">Business (Multi Page)</span>
                                                                 </a>
                                                                 <a target="_blank" href="index-onepage.html">
@@ -714,7 +705,7 @@
                             </a>
                         </div>
                         <div class="mobile__log">
-                            <div class="mobile__log--title"><a class="mobile__log--link" href="index.html">
+                            <div class="mobile__log--title"><a class="mobile__log--link" href="/">
                                 <img class="mobile__log--img" src="img/logo/Logo_1.png" alt="logo-img">
                             </a></div>
                         </div>
@@ -819,7 +810,7 @@
         <div class="offcanvas__header">
             <div class="offcanvas__inner">
                 <div class="offcanvas__logo">
-                    <a class="offcanvas__logo_link" href="index.html">
+                    <a class="offcanvas__logo_link" href="/">
                         <img src="img/logo/Logo_2.png" alt="Logo-img">
                     </a>
                     <button class="offcanvas__close--btn" data-offcanvas>Close</button>
@@ -827,11 +818,11 @@
                 <nav class="offcanvas__menu">
                     <ul class="offcanvas__menu_ul">
                         <li class="offcanvas__menu_li">
-                            <a class="offcanvas__menu_item" href="index.html">Home</a>
+                            <a class="offcanvas__menu_item" href="/">Home</a>
                             <ul class="offcanvas__sub_menu">
                                 <li class="offcanvas__sub_menu_li"><a href="#" class="offcanvas__sub_menu_item">Multipages</a>
                                     <ul class="offcanvas__sub_menu"> 
-                                        <li class="offcanvas__sub_menu_li"><a href="index.html" class="offcanvas__sub_menu_item">Business Consulting</a></li>
+                                        <li class="offcanvas__sub_menu_li"><a href="/" class="offcanvas__sub_menu_item">Business Consulting</a></li>
                                         <li class="offcanvas__sub_menu_li"><a href="home-2(marketing-consulting).html" class="offcanvas__sub_menu_item">Marketing Consulting</a></li>
                                         <li class="offcanvas__sub_menu_li"><a href="home-3(corporate-business).html" class="offcanvas__sub_menu_item">Corporate Business</a></li>
                                         <li class="offcanvas__sub_menu_li"><a href="home-4(digital-agency).html" class="offcanvas__sub_menu_item">Digital Agency</a></li>
@@ -939,7 +930,7 @@
                     </div>
                     <div class="breadcrumbarea__inner">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li>// </li>
                             <li> Error </li>
                         </ul>
